@@ -1,0 +1,77 @@
+:root {
+    --primary-blue: #3771C8;
+    --primary-magenta: #820548;
+    --primary-gold: #FFB048;
+    --secondary-blue: #799fd8;
+    --secondary-magenta: #cf619b;
+    --secondary-gold: #f9ce95;
+    --tertiary-blue: #0e3979;
+    --tertiary-magenta: #4d1131;
+    --tertiary-gold: #bc7517;
+    /* --fira-code: "Fira Mono Regular", fira-mono, monospace;
+    --fira-code: "Fira Mono Regular", fira-mono, monospace; */
+}
+body { 
+    background-color: #d8e5fa;
+    font-family: "fira-mono",monospace; 
+}
+.navbar, .navbar-brand, .nav-link, .nav-item {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    /* padding-left:2em; */
+}
+h1, h2, h4, h5{
+    font-family: "ibm-plex-serif",sans-serif; 
+    color: var(--primary-magenta);
+}
+h6, h3, p {
+    font-family: "fira-mono",monospace; 
+}
+h4{
+    color:var(--primary-blue)
+}
+h1{
+    font-size: 4em;
+}
+h6{ 
+    color: var(--primary-magenta);
+}
+.btn{
+    color:black;
+    background-color:var(--primary-gold);
+    padding: 5px 8px;
+    border-color: transparent;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color:white;
+    background-color:var(--primary-magenta);
+}
+.card{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.card-title{
+    color:var(--primary-magenta);
+    font-weight:600;
+    font-size:large;
+}
+.card-text{
+    color:#000000;
+    font-size:small;
+}
+.overlapped-left-col {
+    margin-left: -10%;
+ }
+ .overlapped-right-col {
+    margin-right: -10%;
+ }
+ .portfolio-card{
+    width:90%;
+    min-height:20vw;
+    background-color:white;
+    margin-left:5%
+ }
+#footer{
+    color:#FFFFFF;
+    background-color:#000000;
+}
